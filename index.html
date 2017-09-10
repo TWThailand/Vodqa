@@ -3,7 +3,7 @@
 <head>
 <style>
 body {
-    font-family: "Lato", sans-serif;
+     font-family:Georgia;
 }
 
 .sidenav {
@@ -19,7 +19,7 @@ body {
     padding-top: 60px;
 }
 
-.sidenav a {
+.menu-bar a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
@@ -28,12 +28,21 @@ body {
     transition: 0.3s;
 }
 
-.sidenav img {
-    padding: 2px 8px 8px 0px;
-    height: 6em;
-    width: 16em;
+.sidenav a img{
     display: block;
     transition: 0.3s;
+}
+
+.tw-logo {
+  padding: 0px 0px 2px 42px;
+  height: 3em;
+  width: 10em;
+}
+
+.vodqa-logo {
+  padding: 2px 8px 8px 0px;
+  height: 6em;
+  width: 16em;
 }
 
 .sidenav a:hover {
@@ -66,12 +75,21 @@ hr {
 <body>
 
 <div id="mySidenav" class="sidenav">
-<img src="Vodqa-white.png" alt="VodQA"/>
-<hr>
-  <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
+  <a href="https://www.thoughtworks.com">
+    <img class="tw-logo" src="tw-logo.png" alt="thoughtworks"/>
+  </a>
+  <a href="#">
+    <img class="vodqa-logo" src="Vodqa-white.png" alt="VodQA"/>
+  </a>
+  <hr>
+  <div class="menu-bar">
+    <a href="#">Who are we?</a>
+    <a href="#">What?</a>
+    <a href="#">When?</a>
+    <a href="#">Where?</a>
+    <a href="#">How?</a>
+    <a href="#">Contact Us</a>
+  </div>
 </div>
 
 <div id="main">
