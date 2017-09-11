@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body>
+	{% include sidenav.html %}
+	<main>
+		<article id="main">
+      {% include timer.html %}
+      {{content}}
+		</article>
+		{% include footer.html %}
+	</main>
+</body>
+
+</html>
