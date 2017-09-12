@@ -124,3 +124,12 @@ span.turn{
   0%{transform: rotateX(0deg)}
   100%{transform: rotateX(360deg)}
 }
+footer{
+  text-align: center;
+}
+p{
+  color: #f5deb3;
+}
+p >a{
+  color: #ffffff;
+}
