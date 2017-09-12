@@ -37,7 +37,7 @@ function startTimer(id, deadline){
     //check for end of timer
     if(timer.total < 1){
       clearInterval(timerInterval);
-      clock.innerHTML = '<span>0</span><span>0</span><span>0</span><span>0</span>';
+      clock.innerHTML = '<span>-</span><span>-</span><span>-</span><span>-</span>';
     }
 
 
