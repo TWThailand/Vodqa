@@ -133,3 +133,12 @@ p{
 p >a{
   color: #ffffff;
 }
+
+.about{
+  font-style: italic;
+  font-family: cursive;
+  top: 20%;
+  left: 20%;
+  position: absolute;
+  font-size: 2.5em;
+}
