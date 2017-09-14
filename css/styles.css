@@ -1,10 +1,10 @@
 body{
   background: #282e3a;
-  font-family: tahoma;
+  font-family: cursive;
 }
 .sidenav {
     height: 100%;
-    width: 250px;
+    width: 25%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -28,15 +28,15 @@ body{
 }
 
 .tw-logo {
-  padding: 0px 0px 2px 42px;
+  padding: 0px 0px 2px 75px;
   height: 2em;
-  width: 10em;
+  width: 50%;
 }
 
 .vodqa-logo {
-  padding: 2px 8px 8px 0px;
+  padding: 2px 8px 8px 40px;
   height: 6em;
-  width: 16em;
+  width: 75%;
 }
 
 .sidenav a:hover {
@@ -52,8 +52,9 @@ body{
 }
 
 #main {
-    margin-left: 250px;
+    margin-left: 25%;
     padding: 16px;
+    padding-top: 0px;
 }
 
 hr {
@@ -139,7 +140,6 @@ p >a{
   font-style: italic;
   font-family: cursive;
   top: 20%;
-  left: 20%;
   position: absolute;
   font-size: 2.5em;
 }
@@ -162,6 +162,7 @@ p >a{
   font-family: cursive;
   border-radius: 10px;
   margin-right: 100px;
+  cursor: pointer;
 }
 #container{
     text-align: center;
@@ -170,4 +171,87 @@ p >a{
     font-size: -webkit-xxx-large;
     color: #fffaf0;
     margin-top: -50px;
+    cursor: pointer;
+}
+
+.slideshow-container {
+  position: relative;
+  border-radius: 10px;
+  margin: auto;
+  height: 400px;
+  background-color: rgba(34, 34, 34, 0.5);
+}
+
+.mySlides {
+    display: none;
+    text-align: center;
+    color: #f2f2f2;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.speaker{
+  border-radius: 50%;
+  height: 100px
+}
+.talk-abstract{
+  margin: auto;
+  padding: 40px;
+}
+.talk-title{
+    font-size: -webkit-xxx-large;
 }
