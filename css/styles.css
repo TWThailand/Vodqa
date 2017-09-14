@@ -1,6 +1,7 @@
 body{
   background: #282e3a;
   font-family: cursive;
+  color: #ddd;
 }
 .sidenav {
     height: 100%;
@@ -278,4 +279,9 @@ p >a{
 }
 #participate:hover {
   animation: bounce 1s;
+}
+
+.location{
+  text-align: center;
+  padding-top:15%;
 }
