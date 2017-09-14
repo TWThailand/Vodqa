@@ -152,8 +152,13 @@ p >a{
   font-family: cursive;
   border-radius: 10px;
   margin-left: 100px;
+  text-decoration: black line-through;
 }
 
+#container >a {
+  text-decoration: none;
+  color: inherit;
+}
 #participate{
   width: 400px;
   height: 100px;
@@ -171,7 +176,6 @@ p >a{
     font-size: -webkit-xxx-large;
     color: #fffaf0;
     margin-top: -50px;
-    cursor: pointer;
 }
 
 .slideshow-container {
@@ -254,4 +258,24 @@ p >a{
 }
 .talk-title{
     font-size: -webkit-xxx-large;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+#participate:hover {
+  animation: bounce 1s;
 }
