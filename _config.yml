@@ -1,7 +1,7 @@
 include: ["_pages"]
 permalink: /:title/
 markdown: kramdown
-baseurl: /vodqaThailandDemo
+baseurl: /Vodqa
 exclude:
   - Gemfile
   - Gemfile.lock
