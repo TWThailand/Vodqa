@@ -149,7 +149,7 @@ p >a{
   width: 400px;
   height: 100px;
   display: inline-block;
-  background: #24ac5c;
+  background-color: rgba(234, 234, 234, 0.5);
   font-family: cursive;
   border-radius: 10px;
   margin-left: 100px;
@@ -164,7 +164,7 @@ p >a{
   width: 400px;
   height: 100px;
   display: inline-block;
-  background: #24ac5c;
+  background-color: rgba(234, 234, 234, 0.5);
   font-family: cursive;
   border-radius: 10px;
   margin-right: 100px;
