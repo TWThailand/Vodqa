@@ -28,48 +28,45 @@
       <div class="agenda">
   <h1> World of Agile </h1>
 </div>
-<div class="slideshow-container">
-  <div class="mySlides fade">
-    <div class ="talk-title">Agile Game</div>
-    <!-- <div class = "talk-details">
-    <div class ="speaker-details"> -->
-    <img class = "speaker" src="../img/JayaSingla.jpg">
-      <div class="speaker-name">
-        Jaya Singla<br>(6:00 PM - 07:30PM)
-      </div>
-    <!-- </div> -->
-    <div class = "talk-abstract">
-      Hat making in a agile way<br/>
-      This will be an interesting game where you make paper hats and get some hands on exposure on the agile way of working...
-    </div>
-  <!-- </div> -->
-  </div>
-
-  <div class="mySlides fade">
-    <div class ="talk-title">Talk 2</div>
-    <div class = "talk-details">
-    <div class ="speaker-details">
-    <img class = "speaker" src="http://menshealthnz.org.nz/wp-content/uploads/2016/05/placeholder-user-photo.png">
-      <div class="speaker-name">
-        First name<br>(Timing)
-      </div>
-    </div>
-    <div class = "talk-abstract">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </div>
-  </div>
-  </div>
 
 
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'talk1')" id="defaultOpen">06:00 PM</button>
+  <button class="tablinks" onclick="openTab(event, 'talk2')">07:30PM</button>
+  <button class="tablinks" onclick="openTab(event, 'talk3')">07:45PM</button>
 </div>
-<br>
 
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
+<div id="talk1" class="tabcontent mySlides">
+  <div class ="talk-title">Agile Game</div>
+  <img class = "speaker" src="../img/JayaSingla.jpg">
+    <div class="speaker-name">
+      Jaya Singla
+    </div>
+  <div class = "talk-abstract">
+    Hat making in a agile way<br/>
+    This will be an interesting game where you make paper hats and get some hands on exposure on the agile way of working...
+  </div>
 </div>
+
+<div id="talk2" class="tabcontent mySlides">
+  <div class ="talk-title">Talk 2</div>
+  <div class = "talk-details">
+  <div class ="speaker-details">
+  <img class = "speaker" src="http://menshealthnz.org.nz/wp-content/uploads/2016/05/placeholder-user-photo.png">
+    <div class="speaker-name">
+      First name<br>(Timing)
+    </div>
+  </div>
+  <div class = "talk-abstract">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </div>
+</div>
+</div>
+
+<div id="talk3" class="tabcontent mySlides">
+  <div class ="talk-title">Networking and dinner</div>
+</div>
+
 
 <script src="../js/slider.js"></script>
 
